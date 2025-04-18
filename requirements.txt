@@ -1,0 +1,7 @@
+pip install PyQt5
+pip install pillow
+pip install opencv-python
+pip install pandas
+pip install keras==2.13.1
+pip install tensorflow==2.13.0
+pip install auto-py-to-exe #### for making compile exe
