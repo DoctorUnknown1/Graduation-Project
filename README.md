@@ -1,26 +1,64 @@
-# Artificial Bin System (ABS)
+Artificial Bin System (ABS)
+An AI-powered smart bin management system developed entirely in software. This project combines machine learning, face recognition, database management, and an interactive graphical user interface to simulate an intelligent waste classification system.
 
-A smart trash bin project that uses sensors and AI to detect and sort waste automatically.
+🛠 Features
+Face Recognition Login System (using OpenCV + ML model)
 
-## Features
-- Object detection for different types of waste (plastic, metal, organic)
-- Automatic lid opening and closing
-- Smart sorting system
-- [Optional] IoT-based notification for full bin
+Smart Waste Classification into:
 
-## Technologies Used
-- Arduino / Raspberry Pi
-- Python / C++
-- Machine Learning (if applied)
-- Sensors (e.g., ultrasonic, IR)
+Plastic
 
-## How It Works
-1. Sensors detect an object approaching.
-2. AI model predicts the type of waste.
-3. Bin sorts the waste into the correct compartment.
+Paper
 
-## Demo
-(You can upload images or videos here)
+Metal
 
-## Authors
-- [Your Name]
+Others
+
+User Registration & Authentication (with SQLite database)
+
+Live Image Capture and Training Interface
+
+Real-time Classification Feedback using ML predictions
+
+Clean, Modern GUI built with PyQt5
+
+🧰 Technologies Used
+Python 3
+
+PyQt5 (for the GUI)
+
+OpenCV (for face recognition and image processing)
+
+SQLite (for database management)
+
+Machine Learning (custom neural network)
+
+PIL (Python Imaging Library)
+
+📂 Project Structure
+graphql
+Copy
+Edit
+Artificial-Bin-System/
+├── Maincode.py             # Main GUI and application logic
+├── DatabaseManager.py      # Manages users and database
+├── loginpage.ui             # PyQt5 UI design file
+├── utils.py                 # Utility functions (not uploaded here)
+├── system/                  # Contains system images and icons
+├── dataset/                 # Training images for classification
+├── images/                  # Captured face images
+└── README.md                # Project description
+🚀 How to Run
+Install the required libraries:
+
+nginx
+Copy
+Edit
+pip install PyQt5 opencv-python Pillow numpy
+Run the main application:
+
+nginx
+Copy
+Edit
+python Maincode.py
+📌 Make sure you have a webcam connected for face capture features.
