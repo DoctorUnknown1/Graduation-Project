@@ -35,20 +35,5 @@ Artificial-Bin-System/
 ├── images/                  # Captured face images
 └── README.md                # Project description
 ```
-
-## 🚀 How to Run
-1. Install the required libraries:
-   ```bash
-   pip install PyQt5 opencv-python Pillow numpy
-   ```
-2. Run the main application:
-   ```bash
-   python Maincode.py
-   ```
-> 📌 Make sure you have a webcam connected for face capture features.
-
-## 📸 Demo Screenshots
-*(You can add images later of your login page, training screen, classification screen, etc.)*
-
 ## 👤 Author
-- [Your Name]
+- [ALi Alremeithi]
