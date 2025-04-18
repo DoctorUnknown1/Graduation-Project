@@ -36,4 +36,4 @@ Artificial-Bin-System/
 └── README.md                # Project description
 ```
 ## 👤 Author
-- [ALi Alremeithi]
+- [Ali Alremeithi]
